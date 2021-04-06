@@ -3,6 +3,8 @@
 #include <stdio.h>
 using namespace std;
 
+// 使用数组，输出时倒序输出并且添加，0 
+
 int main() {
     int a, b, ans, k = 0, symbol = 1;
     // a,b的上限是1e6,所以和的范围是[-1e7, 1e7], 数组开3个足够
